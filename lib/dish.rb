@@ -1,5 +1,5 @@
 require "httparty"
 
-Dir[File.dirname(__FILE__) + '/dish/*.rb'].each do |file|
+Dir[File.dirname(__FILE__) + '/lib/*.rb'].each do |file|
   require file
 end

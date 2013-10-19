@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.dribble.com/players/simplebits
+    uri: http://api.dribbble.com/players/simplebits
     body:
       encoding: US-ASCII
       string: ''
@@ -12,82 +12,124 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Date:
-      - Sat, 19 Oct 2013 02:56:01 GMT
       Server:
-      - Apache/2.2.25 (CentOS)
-      Connection:
-      - close
+      - nginx
+      Date:
+      - Sat, 19 Oct 2013 05:46:51 GMT
+      Content-Type:
+      - application/json; charset=utf-8
       Transfer-Encoding:
       - chunked
-      Content-Type:
-      - text/html; charset=ISO-8859-1
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"ed19b209771c3e6d10e035fa566f54d8"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 35bd0b7694d82e04884fa5c7bb4fa07f
+      X-Runtime:
+      - '0.014714'
+      X-Rack-Cache:
+      - miss
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"name":"Dan Cederholm","location":"Salem, MA","followers_count":25892,"draftees_count":164,"likes_count":33616,"likes_received_count":18992,"comments_count":2578,"comments_received_count":2921,"rebounds_count":30,"rebounds_received_count":270,"url":"http://dribbble.com/simplebits","avatar_url":"http://dribbble.s3.amazonaws.com/users/1/avatars/normal/dc.jpg?1371675643","username":"simplebits","twitter_screen_name":"simplebits","website_url":"http://simplebits.com","drafted_by_player_id":null,"shots_count":209,"following_count":1694,"created_at":"2009/07/07
+        21:51:22 -0400"}'
+    http_version: 
+  recorded_at: Sat, 19 Oct 2013 05:46:49 GMT
+- request:
+    method: get
+    uri: http://api.dribbble.com/players/simplebits
     body:
       encoding: US-ASCII
-      string: ! "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"
-        \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n<head>\n<meta http-equiv=\"Content-Type\"
-        content=\"text/html; charset=iso-8859-1\">\n<title>Welcome api.dribble.com
-        - Hostmonster.com</title>\n<link href=\"//www.hostmonster.com/media/shared/info/index/_hm/home.css\"
-        rel=\"stylesheet\" type=\"text/css\">\n<link href=\"//www.hostmonster.com/media/shared/general/_hm/homestyle.css\"
-        rel=\"stylesheet\" type=\"text/css\">\n<script type=\"text/javascript\" src=\"//www.hostmonster.com/media/shared/general/_hm/home.js\"></script>\n<style
-        type=\"text/css\">\n.rollover a { display:block; height:27px;width:140px;
-        background: url('//www.hostmonster.com/media/shared/general/_hm/cplogin.gif')
-        no-repeat 0 0;} \n.rollover a:hover { background: url('//www.hostmonster.com/media/shared/general/_hm/cplogin_down.gif')
-        no-repeat 0 0; }\n.sub_bottom { background: inherit }\n.cbl { background:
-        inherit }\n.cbr { background: inherit }\n</style>\n<meta name=\"revisit-after\"
-        content=\"10\">\n<meta name=\"ROBOTS\" content=\"NOINDEX, NOFOLLOW\"> \n<script
-        type=\"text/javascript\" src=\"http://cdn.dsultra.com/js/registrar.js\"></script>\n</head>\n<body>\n<script
-        type=\"text/javascript\"> if (window.top !== window.self) {document.write
-        = \"\";window.top.location = window.self.location; setTimeout(function(){document.body.innerHTML='';},1);window.self.onload=function(evt){document.body.innerHTML='';};}
-        </script>\n<table width=\"1063\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"
-        align=\"center\" class=\"webhost-border\">\n\n  <tr>\n    <td>\n      <!--
-        Header begin -->\n      <table width=\"100%\"  border=\"0\" cellspacing=\"0\"
-        cellpadding=\"0\">\n        <tr>\n          <td colspan=2 style='background:
-        url(//www.hostmonster.com/media/shared/general/_hm/hm_gradient.jpg) repeat-x'><img
-        src=\"//www.hostmonster.com/media/shared/general/_hm/hostmonster-h.png\" width=\"75\"
-        height=\"79\" style='margin-left: 47px;padding:5px 0;'></td>\n        </tr>\n
-        \     </table>\n      <!-- Header end -->\n\n      <!-- Main nav -->\n      <table
-        width=\"100%\"  border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n        <tr>\n
-        \         <td valign=\"top\"><img src=\"//www.hostmonster.com/media/shared/general/_hm/logo2.jpg\"
-        width=\"163\" height=\"37\"></td>\n          <td width=\"100%\" valign=\"top\">\n
-        \           <table width=\"100%\"  border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n
-        \             <tr>\n                <td background=\"//www.hostmonster.com/media/shared/general/_hm/gradient-above-buttons.jpg\"><img
-        src=\"//www.hostmonster.com/media/shared/general/spacer.gif\" width=\"1\"
-        height=\"11\"></td>\n              </tr>\n\n              <tr>\n                  <td
-        align=right style=\"border-bottom: 1px solid #999; border-right: 1px solid
-        #999; padding: 5px;background-color: white;\"><a href='http://www.hostmonster.com'
-        style='color: #000; text-decoration: none; font-weight: bold;'>Web Hosting
-        - courtesy of www.hostmonster.com</a>&nbsp;</td>\n              </tr>\n            </table>\n
-        \         </td>\n          <td><img src=\"//www.hostmonster.com/media/shared/general/_hm/button-end.jpg\"
-        width=\"6\" height=\"37\"></td>\n        </tr>\n      </table>\n\n      <!--
-        Main nav end -->\n\n      <div style=\"background-color:white;padding:12px
-        0 0 12px\"></div>\n\n      <table width=\"100%\"  border=\"0\" cellspacing=\"0\"
-        cellpadding=\"0\">\n        <tr>\n          <td rowspan=\"2\" valign=\"top\"
-        bgcolor=\"#FFFFFF\" style=\"padding:10px\">\n          <!-- body area -->\n\n<script
-        type='text/javascript' src=//www.hostmonster.com/media/shared/general/jquery/jquery.min.js></script>\n<style>\n.icontent
-        {\n    width: 1035px;\n    height: 700px;\n    border: none;\n    margin-top:
-        4px;\n    margin-bottom: 4px;\n}\n\n</style>\n\n<script>\n    var gaJsHost
-        = (\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\";\n
-        \   document.write(\"<scr\"+\"ipt src='\" +gaJsHost+ \"google-analytics.com/ga.js'></scr\"+\"ipt>\");\n</script>\n<script>\n
-        \   var pageTracker = _gat._getTracker(\"UA-9156498-2\");\n    pageTracker._initData();\n
-        \   pageTracker._trackPageview(\"/parked/dns/api.dribble.com/%2Fplayers%2Fsimplebits\");\n</script>\n\n<center>\n
-        \   <iframe frameborder=\"0\" scrolling=\"no\" src=\"about:blank\" id='ad_frame'
-        class=\"icontent\"></iframe>\n</center>\n<script type=\"text/javascript\">registrar_frameset({a_id:
-        115576, drid: \"as-drid-2578124767373827\", frame: \"ad_frame\"});</script>\n\n<hr
-        class=\"bbar\" />\n          <!-- body area end -->\n          </td>\n\n        </tr>\n
-        \     </table>\n    </div>\n\n    <div id=\"footer\" style=\"width:auto\">\n
-        \       <div class=\"sub_cont\"><div class=\"sub_bottom hie6\"><div class=\"rc
-        cbl\"></div><div class=\"rc cbr\"></div></div></div>\n        <ul id=\"footer_links\">\n
-        \           <li class=\"first\"><a href=\"http://www.hostmonster.com/\">Home</a></li>\n
-        \           <li><a href=\"http://www.hostmonster.com/cgi/info/hosting_features\">Hosting
-        Features</a></li>\n            <li><a href=\"http://www.hostmonster.com/cgi/help\">Help
-        Center</a></li>\n            <li><a href=\"http://www.hostmonster.com/cgi/info/contact_us\">Contact
-        Us</a></li>\n\n            <li><a href=\"http://www.hostmonster.com/cgi/info/about_us\">About
-        Us</a></li>\n            <li><a href=\"http://www.hostmonster.com/cgi/signup\">Domain
-        Check</a></li>\n            <li><a href=\"http://www.hostmonster.com/cgi-bin/partner\">Affiliates</a></li>\n
-        \           <li><a href=\"http://www.hostmonster.com/cgi/terms\">Terms</a></li>\n
-        \       </ul>\n        <div class=\"smalltext\" align=\"center\">&copy; 2005-2012
-        Hostmonster.com. All rights reserved.</div>\n\n    </div>\n\n</div>\n</body>\n</html>\n"
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 19 Oct 2013 16:55:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"3370745796331dcda2b082cb2405b82d"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3febd07699feca2e628aeedfd8876564
+      X-Runtime:
+      - '0.016988'
+      X-Rack-Cache:
+      - miss
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"name":"Dan Cederholm","location":"Salem, MA","followers_count":25910,"draftees_count":164,"likes_count":33621,"likes_received_count":18993,"comments_count":2578,"comments_received_count":2921,"rebounds_count":30,"rebounds_received_count":270,"url":"http://dribbble.com/simplebits","avatar_url":"http://dribbble.s3.amazonaws.com/users/1/avatars/normal/dc.jpg?1371675643","username":"simplebits","twitter_screen_name":"simplebits","website_url":"http://simplebits.com","drafted_by_player_id":null,"shots_count":209,"following_count":1695,"created_at":"2009/07/07
+        21:51:22 -0400"}'
     http_version: 
-  recorded_at: Sat, 19 Oct 2013 02:56:02 GMT
+  recorded_at: Sat, 19 Oct 2013 16:55:39 GMT
+- request:
+    method: get
+    uri: http://api.dribbble.com/players/simplebits
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 19 Oct 2013 16:55:39 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Etag:
+      - '"3370745796331dcda2b082cb2405b82d"'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c4a9bbe74374d4982affebfd442584e0
+      X-Runtime:
+      - '0.020393'
+      X-Rack-Cache:
+      - miss
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"name":"Dan Cederholm","location":"Salem, MA","followers_count":25910,"draftees_count":164,"likes_count":33621,"likes_received_count":18993,"comments_count":2578,"comments_received_count":2921,"rebounds_count":30,"rebounds_received_count":270,"url":"http://dribbble.com/simplebits","avatar_url":"http://dribbble.s3.amazonaws.com/users/1/avatars/normal/dc.jpg?1371675643","username":"simplebits","twitter_screen_name":"simplebits","website_url":"http://simplebits.com","drafted_by_player_id":null,"shots_count":209,"following_count":1695,"created_at":"2009/07/07
+        21:51:22 -0400"}'
+    http_version: 
+  recorded_at: Sat, 19 Oct 2013 16:55:39 GMT
 recorded_with: VCR 2.6.0
